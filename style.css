@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ovo", serif;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 1150px;
+}
+.row {
+  width: 100%;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.container-fluid {
+  width: 100%;
+}
+/* <!-- Header section --> */
+header {
+  background-image: url(images/background-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  margin-left: 100px;
+}
+nav ul li {
+  float: left;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 26px;
+  line-height: 30px;
+  font-family: serif;
+}
+nav ul li a {
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(255, 145, 0);
+  transition: all 0.5s;
+}
+.first-heading-1,
+.first-heading-2 {
+  margin-top: -30px;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgb(26, 24, 24);
+  font-family: sans-serif;
+}
+.first-heading-3 {
+  /* padding-top: 20px;*/
+  font-size: 30px;
+  color: rgb(24, 21, 21);
+  font-family: serif;
+  text-align: center;
+}
+.first-heading-4 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-family: serif;
+  word-spacing: 5px;
+}
+.first-heading-4 span {
+  /* background: #ffbe33;*/
+  color: #0f0e0e;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.first-btn {
+  text-align: center;
+  border-radius: 5px;
+  /*margin-top: 80px;*/
+}
+.first-btn button {
+  font-weight: 600;
+  line-height: 15px;
+  padding: 18px 32px 18px 32px;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  height: 60px;
+  border: 0px solid #ffbe33;
+  background: #ffbe33;
+  border-radius: 5px;
+}
+.first-btn button:hover {
+  background: #e0a627;
+}
+/* <!--  2sd section -->*/
+.section-2 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.section-2 .heading-1 {
+  color: #868048;
+  font-size: 35px;
+  font-weight: 500;
+}
+.section-2 .heading-1 h1 {
+  text-align: center;
+  padding-left: 100px;
+  font-size: 55px;
+}
+.section-2 .heading-1 h2 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 40px;
+  padding-left: 100px;
+}
+
+/** section-3 **/
+.section-3 {
+  margin-top: 150px;
+  margin-bottom: 240px;
+}
+/*.section-3 .small-webp {
+}*/
+.small-webp-contant h4 {
+  font-size: 35px;
+  font-weight: 400px;
+}
+.small-webp-contant p {
+  font-size: 17px;
+  font-weight: 300px;
+  margin-top: 20px;
+}
+.section-4th {
+  padding-top: 40px;
+}
+.section-4th h1 {
+  padding-top: 80px;
+  font-size: 40px;
+  font-weight: 550;
+  color: #ccc055;
+  text-align: center;
+}
+.section-4th h5 {
+  padding-top: 18px;
+  font-size: 22px;
+  color: #0f0f0f;
+  text-align: center;
+}
+.nav-4th ul {
+  padding-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-4th ul li {
+  /*float: left;*/
+}
+.picter-4th {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.picter-4th .img-box img {
+  height: 340px;
+  width: 280px;
+  border-radius: 8px;
+}
+.picter-4th-box {
+  position: relative;
+}
+.picter-4th .contant-box {
+  position: absolute;
+  padding-left: 15px;
+  top: 160px;
+  color: #1b1919;
+  text-align: center;
+  font-weight: bold;
+}
+/*<!--  5st section -->*/
+.section-5st {
+  margin-top: 80px;
+  background-color: #08080883;
+  background-image: url(images/Los-Moriscos-Club-de-Golf-Villa-Pepe-Motril-1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
+.section-5st h1 {
+  padding-top: 50px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #080808;
+}
+.section-5st p {
+  padding-top: 40px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+  color: #000000;
+}
+.btn-5st {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.btn-5st button {
+  height: 50px;
+  font-size: 22px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #ffbe33;
+  border-radius: 6px;
+  border: #ffbe33;
+  width: 200px;
+  color: white;
+  margin-left: 50px;
+}
+.btn-5st button span {
+  padding-left: 20px;
+}
+.btn-5st button:hover {
+  color: rgb(0, 0, 0);
+  transform: scaleY(1, 1.3);
+}
